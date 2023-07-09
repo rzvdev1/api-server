@@ -82,8 +82,8 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ### My work
 
-- [GitHub Actions]()
-- [Main branch Render]()
+- [GitHub Actions](https://github.com/rzvdev1/api-server/actions)
+- [Main branch Render](https://api-server-37ox.onrender.com/)
 
 #### Resources
 
