@@ -1,4 +1,7 @@
 'use strict';
+
+//define the Drink model's schema
+//Drink will be the table and name/calories will be columns
 const Drink = (dbInstance, DataTypes) => {
   return dbInstance.define('Drink', {
     name: {
