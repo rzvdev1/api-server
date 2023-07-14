@@ -5,11 +5,11 @@ const { carCollection } = require('../models/index.js');
 
 const router = express.Router();
 
-router.get('car', getAllCars);
-router.get('car/:id', getOneCar);
-router.post('car', createCar);
-router.put('car/:id', updateCar);
-router.delete('car/:id', deleteCar);
+router.get('/car', getAllCars);
+router.get('/car/:id', getOneCar);
+router.post('/car', createCar);
+router.put('/car/:id', updateCar);
+router.delete('/car/:id', deleteCar);
 
 async function getAllCars(req, res) {
   let allCars = await carCollection.read(null, {
