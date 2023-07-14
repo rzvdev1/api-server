@@ -18,7 +18,7 @@ describe('driver model', () => {
     licenseId: 1234567890,
   };
   let testCar = {
-    model: 'test car',
+    model: 'Mustang',
     year: 2020,
   };
   let driver = null;
@@ -35,6 +35,6 @@ describe('driver model', () => {
   });
   it('should be able to fetch a car', async () => {
     let car = await carCollection.read(1);
-    expect(car.model).toBe('test car');
+    expect(car.model).toBe('Mustang');
   });
 });
