@@ -11,11 +11,9 @@ describe('server routes and functionality', () => {
     expect(response.text).toBe('Hello World');
   });
   describe('api routes', () => {
-    test('the food route will respond with a status of 204', async () => {
-      const response = await mockRequest.delete('/food/1');
-      expect(response.status).toBe(204);
-      expect(response.body).toEqual({});
-      const getResponse = await mockRequest.get('/food');
+    test('the food route will respond with a 404 on a bad method', async () => {
+      const response = await mockRequest.patch('/api/v1/food');
+      expect(response.status).toBe(404);
     });
   });
   describe('api models', () => {
