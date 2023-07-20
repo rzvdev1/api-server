@@ -85,6 +85,24 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 - [GitHub Actions](https://github.com/rzvdev1/api-server/actions)
 - [Main branch Render](https://api-server-37ox.onrender.com/)
 
+### lab-04 feature branch
+
+Who was your partner?
+
+- Rhett Beardemphl
+
+What was your key takeaway?
+
+- understanding how to read other develpers code and how they think.
+
+  Share the link to your PR request.
+
+- https://github.com/rhettb253/basic-express-server/pull/9
+
+  Share the link to their PR request.
+
+- https://github.com/rzvdev1/api-server/pull/1
+
 #### Resources
 
 - [README Template](https://gist.github.com/andreasonny83/7670f4b39fe237d52636df3dec49cf3a#file-readme-md)
